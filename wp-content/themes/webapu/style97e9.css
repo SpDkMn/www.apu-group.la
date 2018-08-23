@@ -7,3 +7,140 @@ Template: vantage
 */
 
 @import url("../vantage/style.css");
+.content__about{
+  padding: 100px 0;
+  margin-bottom: 0;
+}
+.content__about .block_title{
+  margin: 0 0 30px !important;
+}
+.content__about .block_title h1{
+  padding: 0;
+  font-weight: 700;
+  margin: 0;
+}
+.content__about .block_title .decoration{
+  display: none;
+}
+.content__about .block_title h3{
+  display: none;
+}
+.content__about .block_description{
+  font-size: 18px;
+  line-height: 26px;
+}
+.content__vision{
+  opacity: 1 !important;
+  background-color: rgba(108,218,215,0.75) !important;
+  margin-bottom: 80px !important;
+}
+.content__vision> .panel-row-style{
+  opacity: 1 !important;
+  background-color: transparent !important;
+}
+.content__vision .block_title{
+  margin: 0 0 30px !important;
+}
+.content__vision .block_title.block-left{
+  text-align: left;
+  padding-left: 40px;
+}
+.content__vision .block_title.block-right{
+  text-align: right;
+  padding-right: 40px;
+}
+.content__vision .block_title h1{
+  padding: 0;
+  font-weight: 700;
+  margin: 0;
+}
+.content__vision .block_title .decoration{
+  display: none;
+}
+.content__vision .block_title h3{
+  display: none;
+}
+.content__vision .block_description{
+  font-size: 18px;
+  line-height: 26px;
+}
+.content__vision .block_description p{
+  margin: 0;
+}
+.content__vision .block_description p + p{
+  margin-top: 2px;
+}
+.content__vision .block_description.block-left{
+  width: 50%;
+  margin-right: auto;
+  text-align: left;
+  padding-left: 40px;
+  margin-bottom: 70px !important;
+}
+.content__vision .block_description.block-right{
+  width: 50%;
+  margin-left: auto;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.content__team{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .content__team{
+    width: 750px;
+  }
+} 
+@media (min-width: 992px) {
+  .content__team{
+    width: 970px;
+  }
+} 
+@media (min-width: 1200px) {
+  .content__team{
+    width: 1170px;
+  }
+} 
+.content__team.content__team{
+  margin-bottom: 60px;
+}
+.content__team .block_title{
+  margin: 0 0 30px !important;
+}
+.content__team .block_title h1{
+  padding: 0;
+  font-weight: 700;
+  margin: 0;
+}
+.content__team .block_title .decoration{
+  display: none;
+}
+.content__team .block_title h3{
+  display: none;
+}
+.content__team .block_description{
+  font-size: 18px;
+  line-height: 26px;
+}
+.content__team .block_description p{
+  margin: 0;
+}
+.content__team .block_description p + p{
+  margin-top: 2px;
+}
+.content__team .text-area{
+  margin: 0 !important;
+}
+.content__team .text-name{
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 10px !important;
+}
+.content__team .text-email{
+  color: #616161;
+  font-size: 12px;
+}
