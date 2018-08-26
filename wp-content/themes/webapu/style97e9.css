@@ -7,6 +7,33 @@ Template: vantage
 */
 
 @import url("../vantage/style.css");
+.container_default{
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container_default{
+    width: 750px;
+  }
+} 
+@media (min-width: 992px) {
+  .container_default{
+    width: 970px;
+  }
+} 
+@media (min-width: 1200px) {
+  .container_default{
+    width: 1170px;
+  }
+}
+.remove_cell-empty .panel-grid-cell-empty{
+  display: none;
+}
+
 .content__about{
   padding: 100px 0;
   margin-bottom: 0;
